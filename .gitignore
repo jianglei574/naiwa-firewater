@@ -1,0 +1,23 @@
+# Claude 会话 / 本地设置
+.claude/
+
+# 依赖
+tools/node_modules/
+
+# 用户参考标注图 / 调试截图（非游戏内容）
+微信图片_*
+ScreenShot_*
+
+# 0 字节空占位文件
+奶娃冰火人
+
+# 一次性分析脚本
+tools/analyze_*.js
+
+# 含原照片的抠图中间产物（已从仓库移除，本地保留）
+assets/_*.png
+
+# 系统文件
+.DS_Store
+Thumbs.db
+*.log

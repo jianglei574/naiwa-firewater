@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  background: #080d15;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "PingFang SC", "Microsoft YaHei", "Segoe UI", system-ui, sans-serif;
+  overflow: hidden;
+}
+
+canvas#game {
+  display: block;
+  /* 等比缩放：宽度受视口宽高共同约束，保持 5:3 */
+  width: min(960px, 100vw, calc(100vh * 5 / 3));
+  aspect-ratio: 5 / 3;
+  background: #0e1a2f;
+  border-radius: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 30px 60px -30px rgba(0, 0, 0, 0.9);
+}
